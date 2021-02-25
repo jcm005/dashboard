@@ -11,6 +11,8 @@ import About from './contents/About';
 import Portfolio from './contents/Portfolio';
 import Contact from './contents/Contact';
 import 'tachyons';
+import Social from './components/Social';
+import { mount } from './mountain.jpeg';
 
 const GlobalStyle = createGlobalStyle`
   body{
@@ -27,9 +29,11 @@ function App() {
         <GlobalStyle />
         <Router>
           <div className="App">
+
             <Navbar />
             <Route exact path="/">
               <Home />
+
             </Route>
             <Route path="/about">
               <About />

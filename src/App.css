@@ -14,7 +14,7 @@
 }
 body{
   font-family: 'Raleway';
-  background: linear-gradient(#cde3f1,#67b5f5);
+  background: linear-gradient(#d9e2e2,#67b5f5);
 }
 .App
 {
@@ -31,22 +31,27 @@ body{
 }
 nav
 {
-  width: 20%;
-	height: 90%;
+  width: 80%;
+	height: 10rem;
 	position: absolute;
 	top: 4%;
-	left: 4%; 
+	left: 8%; 
 	padding: 0;
   line-height: 1;
   text-align: center;
+  justify-content: center;
 }
 .condiv
 {
+  align-items: flex-start;
+  align-content: center;
+   /* */
+
   width: 60%;
 	height: 90%;
 	position: absolute;
 	top: 4%;
-	left: 28%; 
+	left: 25%; 
   line-height: 1;
   padding-left: 10px;
   padding-right: 10px;
@@ -67,6 +72,19 @@ nav
   align-items: center;
   
 }
+
+.contact
+{
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left:5%;
+  height: auto;
+  width:22%;
+
+ 
+}
+
 .profilepic
 {
   border-radius: 50%;
@@ -78,7 +96,7 @@ nav
 {
   font-size: var(--typing-font);
   margin-bottom: 30px;
-  color: #ffffffbf;
+  color: #4b4a4abf;
 }
 
 nav ul{
@@ -113,85 +131,38 @@ a
   font-size: 1.6rem;
 }
 p{
-  font-size: var(--fontsize-p);
+  font-size: 1.5vw;
   color: #363636bf;
-  margin: 10px;
 }
 h1{
   margin: 10px;
   font-size: 3.3rem;
 }
 h2{
-  font-size: 2rem;
+  font-size: 2vw;
+  padding:10px;
 }
+
 .abouthead{
   margin: 15px 10px;
   font-size: 2.3rem;
 }
 h3{
-  font-size: 1.4rem;
-  margin: 37px 0 0 90px;
+  font-size: 2vw;
+  padding: 10px;
+  /*margin: 37px 0 0 90px;
+  */
 }
 h4{
-  font-size: 1.2rem;
-  margin: 24px 0 0 90px;
+  padding-top: 10px;
+  padding-left: 5px;
+  text-align: center;
+  font-size: 1.5vw;
+ 
 }
 .p1{
   margin-left: 90px;
   font-size: 1rem;
-}
-.sk_head{
-  position: absolute;
-  top: 50%;
-  left: 45%;
-}
-.sk{
-  position: absolute;
-  top: 65%;
-  left: 58%;
-  display: inline-block;
-  width: 90px;
-  height: 35px;
-  font-weight: bolder;
-  color: rgba(245, 108, 109,1);
-  text-align: center;
-  padding: 10px;
-}
-.sk:hover{
-  background-color: #ffffff80;
-}
-.s2{
-  left: 75%;
-}
-.s3{
-  top: 75%;
-  left: 58%;
-}
-.s4{
-  top: 75%;
-  left: 75%;
-}
-.s5{
-  top: 85%;
-  left: 58%;
-}
-.s6{
-  top: 85%;
-  left: 75%;
-}
-mark{
-  color: inherit;
-  padding: 0;
-  background: 0 0;
-  background-position-x: 0px;
-  background-position-y: 0px;
-  background-repeat: repeat;
-  background-size: auto;
-  background-image: linear-gradient(120deg,rgba(245, 108, 109,1) 0,rgba(245, 108, 109,1) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% .28em;
-  background-position: 0 70%;
-  position: relative;
 }
 .hr_line{
   width: 60px;
@@ -237,11 +208,13 @@ mark{
 }
 .social
 {
-  width: 20%;
-	height: 14%;
+  width: 120px;
+  height: 45%;
 	position: absolute;
-	bottom: 4%;
-	right: 40%; 
+  bottom: 25%;
+  top: 10px;
+  left:90%;
+	 
 	display: flex;
 	justify-content: center;
   align-items: center;
@@ -375,19 +348,19 @@ mark{
   border-radius: 10px;
 }
 .back3{
-  width: 210px;
-	height: 50px;
-  padding: 12px 0;
-	position: absolute;
-	top: 55%;
-  left: 22%;
+  width: 80%;
+	height: 10%;
+  padding: 12px 5px;
+  margin-bottom: 10px;  
+  margin-top: 5px;
+	
   color: black;
-  font-size: 22px;
+  font-size: 1.25vw;
   text-align: center;
   cursor: pointer;
 }
 .back3:hover{
-  background-color: rgba(245, 108, 109,.5);
+  background-color: rgba(114, 110, 110, 0.5);
 }
 .back4{
   left: 56%;
@@ -404,7 +377,7 @@ mark{
   }
   .App
   {
-    flex-direction: column;
+    flex-direction: row;
   }
   .sidebar
   {

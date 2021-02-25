@@ -1,0 +1,64 @@
+.portfolio_head {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    left: 62%;
+    height: 70%;
+    width: 35%;
+}
+
+
+.project1{
+    position: absolute;
+    transform: rotate(-5deg);
+    left: 5%;
+    background-color: white;
+    height: 98%;
+    width:98%;
+    
+}
+.project2{
+    position: absolute;
+    background-color: white;
+    flex-wrap: wrap;
+    transform: rotate(5deg);
+    height: 98%;
+    width: 98%;
+    left: 5%; 
+    
+}
+
+.a1 {
+    position: absolute;
+    background-color: rgba(103, 217, 252, 0.911);
+    transform: rotate(-5deg);
+    top: 10%;
+    left:5%;
+    height: 40%;
+    width: 50%;
+}
+
+.a2 {
+    position: absolute;
+    background-color: rgba(150, 252, 150, 0.911);
+    transform: rotate(5deg);
+    top: 55%;
+    left:45%;
+    height: 40%;
+    width: 50%;
+}
+
+.about {
+
+    background-color: rgba(19, 71, 243, 0.267);
+    position: absolute;
+    top: 200px;
+    left:30%;
+    height: 500px;
+    width:30%;
+}
+
+
+

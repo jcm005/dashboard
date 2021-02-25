@@ -2,17 +2,23 @@ import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../img/profile_photo.jpg';
 import Social from '../components/Social'
+import Contact from './Contact';
+import Portfolio from './Portfolio';
+import ReactCardFlip from 'react-card-flip';
+import About from './About';
+
 
 
 
 class Home extends Component {
     render() {
         return (
-            <div className="condiv home">
-                <h1>Joseph Mattern</h1>
-                <ReactTypingEffect className="typingeffect" text={['Full Stack', 'Python Developer', 'A Problem Solver!']} speed={50} eraseDelay={900} />
-                <Social />
+            <div>
+                <Contact />
+                <About />
+                <Portfolio />
             </div>
+
         )
     }
 }

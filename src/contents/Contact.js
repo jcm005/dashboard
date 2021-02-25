@@ -6,15 +6,18 @@ class Contact extends Component {
     render() {
         return (
             <div className="condiv contact">
-                <h1>Contact Me</h1>
-                <div class="con_out glass"></div>
-                <h3>Email:<p>matternjoe@gmail.com</p></h3>
-                <h3>Phone<p>(631) 704-3733</p></h3>
+                <h2>Contact Me</h2>
 
-
-                <a href="https://drive.google.com/file/d/1WIZwPkSAdOP6WOWlHXd8iyETgc--BW-z/view?usp=sharing"><div className="back3 glass">Download Resume</div></a>
-                <a href="mailto:matternjoe@gmail.com"><div className="back3 back4 glass">Contact Me</div></a>
-                <Social />
+                <div className="">
+                    <h3>Email:<p>matternjoe@gmail.com</p></h3>
+                    <h3>Phone<p>(631) 704-3733</p></h3>
+                    <a href="https://drive.google.com/file/d/1WIZwPkSAdOP6WOWlHXd8iyETgc--BW-z/view?usp=sharing">
+                        <div className="back3 glass">Download Resume</div>
+                    </a>
+                    <a href="mailto:matternjoe@gmail.com">
+                        <div className="back3 back4 glass">Contact Me</div>
+                    </a>
+                </div>
             </div >
         )
     }
